@@ -29,7 +29,6 @@ btnAvancar.addEventListener("click", function () {
   cartaoSelecionado.classList.remove("selecionado");
   cartaoAtual++;
   cartoes[cartaoAtual].classList.add("selecionado");
-  
 });
 
 const btnVoltar = document.getElementById("btn-voltar");
@@ -41,4 +40,4 @@ btnVoltar.addEventListener("click", function () {
   cartaoSelecionado.classList.remove("selecionado");
   cartaoAtual--;
   cartoes[cartaoAtual].classList.add("selecionado");
-})
+});
